@@ -10,6 +10,33 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter-regular: 'Inter Regular', Arial, sans-serif;
+  --font-sora-regular: 'Sora Regular', Arial, sans-serif;
+  --font-inter-light: 'Inter Light', Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'Inter Light';
+  src: url(/assets/fonts/Inter-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Regular';
+  src: url(/assets/fonts/Inter-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sora Regular';
+  src: url(/assets/fonts/Sora-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {
